@@ -121,6 +121,10 @@ bool ispositive(const LongDouble&);
 bool signbit(const LongDouble&);
 bool signbit(const LongInteger&);
 
+/**
+ * Returns x^y.
+ */
+LongDouble intpow(const LongDouble&, const LongInteger&);
 
 } //end namespace
 
